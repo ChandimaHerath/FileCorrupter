@@ -17,9 +17,15 @@
             <Cursor fx:constant="WAIT" />
          </cursor>
       </Button>
-      <Text layoutX="186.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="File Corrupter (V.1.0)" wrappingWidth="364.45849609375" />
+      <Text layoutX="186.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="File Corrupter (V.1.0)" wrappingWidth="267.45849609375" />
       <Button fx:id="btnSelectFile" layoutX="415.0" layoutY="97.0" mnemonicParsing="false" onAction="#OnClick_btnSelectFile" prefHeight="26.0" prefWidth="91.0" text="Select File" />
-      <TextField fx:id="txtFile" layoutX="15.0" layoutY="97.0" prefHeight="26.0" prefWidth="391.0" />
+      <TextField fx:id="txtFile" layoutX="15.0" layoutY="97.0" prefHeight="26.0" prefWidth="391.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="119.0" />
+      <Text layoutX="80.0" layoutY="228.0" strokeType="OUTSIDE" strokeWidth="0.0" text="File Corrupter (V.1.0) Developed By Orca  © - 2021" wrappingWidth="365.45849609375" />
+      <Text layoutX="84.0" layoutY="261.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The Application totally for education purposes only" wrappingWidth="365.45849609375" />
+      <Text layoutX="68.0" layoutY="294.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Usage of Application is Extremely harmful for your Files" wrappingWidth="391.00000485777855" />
+      <Text fill="RED" layoutX="99.0" layoutY="326.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The Corruption process is totally Unrecoverable" wrappingWidth="391.00000485777855" />
+      <Text fill="RED" layoutX="137.0" layoutY="355.0" strokeType="OUTSIDE" strokeWidth="0.0" text="This will totally destroy your files...!" wrappingWidth="391.00000485777855" />
+      <Text layoutX="170.0" layoutY="383.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Use at your own risk...!" wrappingWidth="391.00000485777855" />
    </children>
    <cursor>
       <Cursor fx:constant="DEFAULT" />
