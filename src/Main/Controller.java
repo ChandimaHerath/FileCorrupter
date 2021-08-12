@@ -27,7 +27,6 @@ public class Controller {
 
         FileChooser fileChooser= new FileChooser();
         File file = fileChooser.showOpenDialog(btnCorruptFile.getScene().getWindow());
-        System.out.println(file);
         txtFile.setText(String.valueOf(file));
 
 
