@@ -12,7 +12,7 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("FileCorrupter.fxml"));
         primaryStage.setTitle("File Corrupter");
-        primaryStage.setScene(new Scene(root, 600, 675));
+        primaryStage.setScene(new Scene(root, 525, 569));
         primaryStage.show();
     }
 
